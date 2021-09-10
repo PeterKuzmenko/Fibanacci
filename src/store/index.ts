@@ -3,7 +3,7 @@ import {createStore, combineReducers} from 'redux'
 import {numReducer} from './reducers/numReducer'
 
 const rootReducer = combineReducers({
-  num: numReducer
+  fibanacci: numReducer
 })
 
 export const store = createStore(rootReducer)
